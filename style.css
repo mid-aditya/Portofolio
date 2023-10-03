@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #1D1A39;
-    --second-bg-color: #4519;
-    --main-color: #5B9A8B;
-    --text-color: #F7E987;
+    --bg-color: #222831;
+    --second-bg-color: #2C394B;
+    --text-color: #FFD369;
+    --main-color: #FF4C29;
 }
 
 html {
@@ -85,8 +85,10 @@ section {
 }
 
 .home-img img{
-    width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 25%;
+    width: 80%;
+    margin-left: 15rem;
 }
 
 @keyframes floatImage {
@@ -115,7 +117,7 @@ span{
 }
 
 .home-content h1{
-    font-size: 5.6rem;
+    font-size: 4.5rem;
     font-weight: 700;
     line-height: 1.3;
 }
@@ -150,7 +152,6 @@ span{
     padding: 1rem 2.8rem;
     background: var(--text-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
     color: var(--second-bg-color);
     letter-spacing: 1rem;
@@ -170,27 +171,36 @@ span{
     background: var(--second-bg-color);
 }
 
-.about-img{
-    width: 35vw;
+.about-img {
+    border-radius: 20%;
 }
 
 .heading{
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 4.8rem;
+    margin-left: 100px;
 }
 
-.about-content h2{
-    text-align: left;
-    line-height: 1.2;
+.about-content {
+    margin-left: 50px;
+    color: #FFD369;
 }
 
-.about-content h3{
-    font-size: 3.6rem;
+.about-content h3 {
+    font-size: 2rem;
+    margin-left: 60px;
 }
 
-.about-content p{
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+.about-content h1 {
+    font-size: 2.5rem;
+}
+
+.about-content h1:hover{
+    color: #FF4C29;
+}
+
+.about-content h3:hover{
+    color: #FF4C29;
 }
 
 .portofolio {
@@ -231,7 +241,7 @@ span{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 1), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, 1));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,6 +277,29 @@ span{
 .portofolio-layer a i{
     font-size: 2rem;
     color: var(--second-bg-color);
+}
+
+.skill {
+    background-color: var(--bg-color);
+}
+
+.skills {
+    text-align: center;
+    width: 100%;
+    font-size: 10rem;
+    padding-top: 80px;
+}
+
+.skills a {
+    color: #FF4C29;
+}
+
+.skills a :hover{
+    color: bisque;
+}
+
+.skill h2  {
+    font-size: 6rem;
 }
 
 .contact h2{

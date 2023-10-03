@@ -39,7 +39,8 @@ ScrollReveal({
     delay: 500
 });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.skills', {origin: 'bottom'})
+ScrollReveal().reveal('.skill-heading, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .portofolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-content , home-content p, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.about-content', { origin: 'right' });
